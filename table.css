@@ -1,0 +1,17 @@
+#wrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+#center {
+	width: 294px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+#center{
+	margin-bottom: 5px;
+}
+#center{
+	border: solid 1px #ccc;
+}
