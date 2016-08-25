@@ -50,6 +50,7 @@ nav {
     right: 20px;
 }
 nav ul {
+    font-family: 'Oswald', sans-serif;
     list-style: none;
     margin: 0;
 }
@@ -117,9 +118,15 @@ li.dropdown {
   margin-top: 140px;
   margin-right: 100px;
 }
-#direction{
-  margin-bottom:20px;
+#directions{
+  top: 440px;
+ position: relative;
+ height: 20px;
+ width: 10px;
+ left: 1050px;
 }
+#directions a {
+  display: inline-block;
 }
 h1{
   margin: 40px;
@@ -129,6 +136,7 @@ section{
     display: inline-block;
 }
 #section1{
+  background-color: yellow;
   float: left;
   margin-top: 20px;
   margin-left: 100px;
@@ -136,20 +144,19 @@ section{
 #footer ul{
     list-style: none;
 }
-#footer{
-    text-align: center;
-    margin-bottom: 20px;
-}
 #footerleft{
-    text-align: left;
+  background-color: yellow;
+    text-align: center;
     margin-left: 30px;
     text-decoration: none;
 }
 #footercenter{
+  background-color: yellow;
     text-align: center;
 }
 #footerright{
-    text-align: right;
+  background-color: yellow;
+    text-align: center;
     margin-right: 30px;
 
 }
@@ -168,9 +175,4 @@ section{
     margin: 0px;
     border: 0px;
     text-align: center;
-}
-@media all and(max-device-width: 500px){
-  #footer{
-    display: none;
-  }
 }

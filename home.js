@@ -1,9 +1,5 @@
 // // this is to bring arrow to top of page
 $(document).on("ready",function(){
-	if(window.innerWidth <= 980){
-		console.log(window.innerWidth)
-		return false;
-	 } else {
 $(".link").on("click",function(e){
  	// console.log(this)
   	e.preventDefault();
@@ -14,7 +10,7 @@ $(".link").on("click",function(e){
   			});
   		};
 	});
-  startCarousel();
+  // startCarousel();
   $(".arrow-left").on("click",slideBackward);
   $(".arrow-right").on("click",slideForward);
   $(window).on("scroll",function(){
@@ -27,7 +23,6 @@ $(".link").on("click",function(e){
       $("#social_media").addClass("sticky");
     }
   });
-}
  });
 
 var currentSlide = 1;
