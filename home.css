@@ -52,12 +52,12 @@ nav ul {
     margin: 0;
 }
 nav li {
-    color: white;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
     display: inline-block;
     margin-left: 20px;
+    padding-bottom: 5px;
 }
 
 ul {
@@ -144,20 +144,28 @@ li.dropdown {
   background-image: url(http://images.cellphonerepair.com/rock-hill-sc/wp-content/uploads/sites/281/2015/08/cell-phone-repair-rock-hill-sc-408x375.jpg);
   display:none;
 }
+.box{
+    margin-top: 600px;
+    text-align: left;
+    width: 800px;
+    display: inline-block;
+}
 .box4 {
-    background-color: yellow;
     margin: 0px 0px 10px 0px;
     padding: 15px 10px 20px 10px;
     font-family: arial;
+    background-color: yellow;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
     font-weight: 100;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 0.05em;
     line-height: 1.4em;
     position: relative;
-}
-.box{
     width: auto;
+    border-radius: 5px;
+}
+.box ul{
+    list-style: none;
 }
 article{
     display: block;

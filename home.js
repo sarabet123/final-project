@@ -10,7 +10,7 @@ $(".link").on("click",function(e){
   			});
   		};
 	});
-  // startCarousel();
+  startCarousel();
   $(".arrow-left").on("click",slideBackward);
   $(".arrow-right").on("click",slideForward);
   $(window).on("scroll",function(){
