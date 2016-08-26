@@ -1,7 +1,5 @@
-// // this is to bring arrow to top of page
 $(document).on("ready",function(){
 $(".link").on("click",function(e){
- 	// console.log(this)
   	e.preventDefault();
 		var scrollTime= 500
 	  	if( $(this).hasClass("link_home") ){
@@ -13,16 +11,16 @@ $(".link").on("click",function(e){
   startCarousel();
   $(".arrow-left").on("click",slideBackward);
   $(".arrow-right").on("click",slideForward);
-  $(window).on("scroll",function(){
-    // Let's check to see whether we are
-    // < 320px scrollY or greater...
-    // we want to freeze if greater
-    if( window.scrollY < 320 ) {
-      $("#social_media").removeClass("sticky");
-    } else { //window.scrollY >= 320
-      $("#social_media").addClass("sticky");
-    }
-  });
+  // $(window).on("scroll",function(){
+  //   // Let's check to see whether we are
+  //   // < 320px scrollY or greater...
+  //   // we want to freeze if greater
+  //   if( window.scrollY < 600 ) {
+  //     $("#social_media").removeClass("sticky");
+  //   } else { //window.scrollY >= 320
+  //     $("#social_media").addClass("sticky");
+  //   }
+  // });
  });
 
 var currentSlide = 1;

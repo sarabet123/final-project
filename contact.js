@@ -1,6 +1,5 @@
 $(document).on("ready",function(){
 $(".link").on("click",function(e){
-    // console.log(this)
     e.preventDefault();
         var scrollTime= 500
         if( $(this).hasClass("link_home") ){
